@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan", serif;
+}
+
+body {
+    background-color: #f5efef;
+}
+
+.navlogo {
+    height: 50px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+/* Styles for hover state */
+.navbar-nav .nav-item:hover .nav-link {
+    color: black !important;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: #fff;
+    border-radius: 18px 0px;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+}
+
+.spacing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.spacing .col-md-1 {
+    padding: 0;
+    text-align: center;
+}
+
+.spacing img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    margin-bottom: 25px;
+    border: none;
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.04);
+}
+
+.beauty1:hover {
+    border: 1px solid black;
+}
+
+.beauty img:hover {
+    border: 1px solid black;
+}
